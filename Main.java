@@ -3,7 +3,7 @@ package ejemplo_synchronized;
 public class Main {
 
 	public static void main(String[] args) {
-		Cuenta c = new Cuenta(40);
+		Cuenta c = new Cuenta(50);
 		SacarDinero h1 = new SacarDinero("Ana", c);
 		SacarDinero h2 = new SacarDinero("Juan", c);
 		
